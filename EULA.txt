@@ -1,0 +1,16 @@
+End User License Agreement FOR MIM.EXE Copyright (C) 2010
+Mercury Instant Messenger
+By: Dennis Dunn (MasterHD@cox.net)
+
+You automatically agree to these terms upon using Mercury Instant Messenger (MIM).
+
+1. This program is provided "as is" with no expressed or implied warranty.
+	The author accepts no liability for any damage/loss of business that
+	this product may cause.
+2. This application may be redistributed unmodified by any means PROVIDING it is 
+	not sold for profit without the author's written consent, and 
+	providing that this notice and the authors name and all copyright 
+	notices remains intact. 
+3. This application is not open source. The source should not be decoded,
+	copied, used, or sold without the author's approval.
+4. Enjoy using MIM, and please report any bugs or improvements that you find.

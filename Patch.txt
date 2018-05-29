@@ -1,0 +1,279 @@
+Patch for MIM.exe
+Version release info
+Copyright 2002-2007
+V 3.02
+By: Dennis Dunn (MasterHD)
+
+---------------------------------------------------------------------------
+v1.01
+1. When entering or leaving a room, the clients screen name will be
+	displayed instead of just the ID number.
+2. Fixed problems with saving the IP addresses and program data to
+	the "IP" file.
+3. Fixed problem with setting Max users.
+4. Created better error handling messages.
+5. Fixed problem with full chat rooms, message is displayed for users
+	that try to connect when full.
+6. Server sends message to all clients when the chat room has closed.
+7. Program now disables the IP address edit box when server option is
+	selected.
+8. Changed the contact screen name to MasterHD@cox.net
+
+-----------------------------------------------------------------------
+V2.0
+1. Added a SETUP wizard that installs the Chatroom.exe program and all
+	of its components. (DOS console)
+2. Interface has been changed. Buttons are now lined up in a row above
+	the message list. Dialog windows, "Server Options" and "Connection
+	Settings" have been added.
+3. Added the ability to name a chatroom.
+4. Added the ability for the admin to have a name.
+5. Port addresses for listening and connecting are now separate values.
+6. All clients (not just server) can now see all of the users 
+	currently in the room.
+7. Created better error handling messages.
+8. Added the ability for server to require a password for all clients
+	attempting to join.
+9. Controls are disabled if error occurs during creation process.
+10. Added the ability to require a password in order to join a room.
+
+-----------------------------------------------------------------------
+V2.11
+1. Users can ignore other users messages.
+2. Added a quick reference help dialog.
+3. License Agreement display's when program is first run.
+4. New SetupWizard, not using DOS console. (GUI)
+5. Compatible With V2.0
+
+-----------------------------------------------------------------------
+V2.16
+1. Users joining a room cannot see chats until they have
+	entered the password.
+2. Changed List Box for saving IP addresses to an easier format.
+3. Fixed bug that erased IP's after pressing "Remove All" then "No".
+4. Users with different versions of Chatroom cannot connect together.
+5. The IP file now stores the version number of "Chatroom" it is using.
+6. Upgraded connection speed. Clients can join faster.
+7. Added "Screen users" ability for admin.
+8. Added "Connection Timeout" feature.
+9. Fixed problem with file extension when saving text messages.
+10. Added the room name at top of Message List and when entering
+	password.
+11. DLL files are no longer needed to run "Chatroom".
+12. Upgraded graphics.
+13. When server closes all clients are notified.
+14. Changed all buffer files to temporary ones (.tmp)
+15. Checks for corrupted file "IP" before loading it.
+16. Increased size of main dialog window.
+17. Increased size of text messages to 299 characters by using word
+	wrapping.
+
+-----------------------------------------------------------------------
+V2.21
+1. User list has checkboxes next to each name, indicating whether or
+	not they are being ignored.
+2. Added ability for Server to "Send Message" to only one client.
+3. Fixed problems with users leaving that never fully joined.
+4. "Network" menu commands work now.
+5. Having more than 20 users on a server is now possible.
+6. Words no longer get cut off when wrapping to the next line.
+	Increased size to 399 characters.
+7. Added Help Menu items that allow user to view Readme and Patch files
+	from the Chatroom program.
+8. ADDED CONSOLE commands!
+9. Added console lines that inform user (begin with ">>") about 
+	connection status; the message list always stays enabled now.
+10. Added more error messages for all data-sending processes.
+11. Error message is displayed if server does not exist.
+12. Fixed problem that would not allow server to handle more than 9
+	users.
+13. Clients screen name and room name are displayed above the 
+	message list.
+
+-----------------------------------------------------------------------
+V2.30
+1. Added bitmap images to buttons.
+2. The chatroom plays a sound when a message is received.
+3. User profiles added.
+4. Added more extensive console commands.
+5. Added the "Previous" button which stores the last 15 strings entered.
+6. Fixed more bugs with word wrapping.
+7. Added error handling messages for WinSock errors.
+8. Allow AVI and BMP in profiles (still in progress).
+9. Added censoring feature.
+10. Added Browse buttons for sound and image files.
+11.	All buffer files (CR1-CR8), IP, and CRprofile are saved under
+	/windows/system(32) directory.
+12. Fixed problems with closing Chatroom incorrectly.
+13. Added warning message if connection is still open when user closes.
+14. Added "vote", "tally", and "ping" commands.
+15. Fixed problems with typed message erasing during certain actions.
+16. Double-clicking user name shows/edits profile.
+17. Users can change name while connected.
+18. Fixed problem with opening profile twice due to latency.
+19. Displays error messages in console instead of message box.
+20. Displays room name in console upon entering
+21. Added flood control for messages and veiwing profiles.
+22. Censoring feature also applies to user names.
+
+-----------------------------------------------------------------------
+V2.40
+1. Gave the program a name and logo: "Mercury Instant Messenger"
+2. Fixed numerous installation bugs and error messages.
+3. Changed message list box to an edit control to allow text selection.
+4. Send message box now allows for multi-line messages.
+5. Increased size of text messages to 900 characters.
+6. Added ability to change font of room list.
+7. Fixed saved settings file location errors.
+8. All .tmp files on disk removed, resulting in increased performace.
+9. Added tray icon for minimizing the window.
+10. Allow resizing of entire window.
+11. Added the ability to see your IP address and Computer name in the
+	"Server Options" window (Console command /MyIP).
+12. Made the main dialog window resizeable with docking controls!
+13. Changed the user list to a multi-column list with images.
+14. Added the admin to the user list, with mallet icon.
+15. Added icon to show ignored (muted) users.
+16. Added error icon to display next to user's names who experience
+	connection problems.
+17. Added new pop-up menu (right-click User List) that contains common
+	user functions.
+18. Added new functions to the pop-up menu: away, available, disconnect.
+	User Icon changes when user is away.
+
+-----------------------------------------------------------------------
+V3.00 [11-7-05]
+1. Drastically changed streaming and sending procedure for increased
+	server performance.
+2. Each user can have unique font settings, viewable to everyone.
+3. Selecting Server in "Connection settings" opens up the "Server
+	Options" dialog.
+4. Added a status bar with resizing handle in bottom-right corner.
+5. Console parameters have no length limit anymore.
+6. The number of saved IP addresses is not limited anymore, was only
+	allowed up to 30 before.
+7. Added End User License Agreement (EULA) text file.
+8. Lowered message flood delay to 1 second.
+9. Added the ability to press the "~" key to cycle through previously
+	typed messages.
+10. Added the WHISPER command (/W shortcut).
+11. Added the "Tray" button to hide the MIM window and send it to the
+	icon tray.
+12. File sharing! Stream multiple files back and forth simultaneously.
+13. Added threading to filesharing.
+14. Added Right-Click ability to both edit boxes.
+15. Added "Follow URL" command in right-click menu for room edit box.
+16. Added the option to select program for internet browsing.
+17. Fixed bug that cleared admin's user list when users were rejected.
+18. Fixed text scrolling problems.
+19. Added "Server Opening Text" ability to rooms.
+20. Added status bar boxes to display port and connection status.
+21. Made admin profile viewable to clients.
+22. Added simple/detailed view button
+23. Time Stamps can be displayed before each message.
+24. Added Ban option with saved list of IP's in Server Options.
+25. Added flashing window ability when user sends files, and when files
+	have finished transferring.
+26. Fixed problems with loading saved fonts.
+27. Changed default fonts and background color.
+28. Removed sort so that font sizes are in the correct numerical order.
+29. Added '\Download' folder as autosave location. Press 'Open
+	Folder' button in FM.exe to quickly jump to the file.
+30. Added ability to Drag and drop files onto the user list to send.
+31. Added the "Able to accept calls" feature into filesharing.
+32. Added current date at startup for history tracking.
+33. Added /date, /time, /listenable commands to console.
+34. Fixed random server crash bug.
+
+-----------------------------------------------------------------------
+V3.01 [1-15-06]
+1. If user attempts to type while the cursor is in the room control
+	focus is set to the message window.
+2. Added /listfile, addfile, clearfile, and sendfile console commands
+3. Fixed bold, italic, underline, strikethrough toolbar and save
+	problems.
+4. Added Google and Dictionary shortcuts to pop-up menu.
+5. Added /quote command.
+6. Added ability to see when users are typing a message.
+7. Hyperlinks are blue and underlined (not clickable though).
+8. Any command requiring only 1 string parameter no longer needs
+	quotes around the entire paramter (for console).
+9. Added mod (remote server) capabilities, see readme.
+10. Added Find dialog to search for text in the message window.
+11. Add view History option in file menu.
+12. Fixed bug that displays garbage text in history and quote.txt
+13. Added /GOOGLE, FOLLOWURL, DICTIONARY console commands.
+14. Able to save message history as an HTML file now.
+15. Added new custom commands feature.
+16. Added date stamp to saved quotes.
+17. Allowed to change room name while server is running.
+
+-----------------------------------------------------------------------
+V 3.02
+
+1. Increased max text message length to 3850 chars.
+2. Added auto-update feature.
+3. Added ability to change the room name while the server is running.
+4. Added /REJOIN command.
+5. Changed window title bar to display room name.
+6. Added "comment" column in saved IP list, and to /addip command. [5-30-06]
+7. Added "Open Download Folder" menu command. [6-2-06]
+8. Fixed more server crash bugs. [6-22-06]
+9. Added shortcut key combinations to chatroom window. [6-23-06]
+10. Added tool tips [6-25-06]
+11. Added "set away after idle" option [7-18-06]
+12. Added new tray icon to show that there are unread messages. [7-28-06]
+13. /Whisper command functioning [7-31-06] (backward compatible)
+14. Redesigned file menu, added "load server.txt" option. [10/14/06]
+15. Changed quote command to: quote then name.
+16. Added autosave feature. Saves to history0.txt every 3 minutes. [11/24/06]
+17. Added /cmd command to run system (DOS) command. [11/24/06]
+18. Hyperlinks are now clickable. [11/25/06]
+19. Added new icons, and splash screen with intro music. [11/28/06]
+20. Disabled mods ability to close server. [11/28/06]
+21. Added /unban and /roll command. [11/28/06]
+22. Added /net to show bandwidth usage. [12/17/06]
+-----------------------------------------------------------------------
+V3.10 (In progress)
+
+1. Fixed bug that sent wrong port for file sharing.
+2. Added Bouncer option to filter incoming users with username and passwords [9-3-07]
+3. PubPad feature
+4. Custom skins feature [9-6-07]
+5. X button sends MIM to tray instead of quitting.
+6. Added /PLAY command to play wave files.
+7. Autosave history files will now be renamed once larger than 8MB and begin a new blank file. [5-27-08]
+8. New Visual Studio 2008 compiler. MIM will run in WIndows Vista without compatibility issues,	but may not work on older platforms like Windows 98.
+9. Pressing the ~ key with focus on the main text window will properly press the "Previous" button now.
+10. Added periodic sends (Keep-alives) to keep idle clients connected.
+11. Added status checking to make sure that clients are receiving their messages.
+	Unresponsive clients are shown in the user list with an error icon.
+12. If for any reason the tray icon dissapears, it should be re-displayed every 60 seconds.
+13. Fixed bug that would cause messages shorter than 40 characters to not be displayed. (Damn GetID function)
+14. Fixed invalid range error in console for "Listenport" command
+15. Fixed and improved the auto-update ability for clients connecting to servers with newer MIM versions.
+16. Changed console command color to a lighter blue for better visibility.
+17. Added ability to save the OS clipboard contents to a .clp file and then send and open the file between computers.
+18. Added /UNBAN [IP] command
+
+
+(fix) error when saving settings affter server close.
+(fix) Random crash when client uses /name command while connected to server
+(add) ability to choose public or private server.
+(add) All Public servers will register with the master server to generate the master IP list. User creating server should send
+	his IP to the master server. Clients can view the list of available servers by refreshing.
+(add) md5 encryption algorithm http://www.md5hashing.com/c++/
+(fixed?) 60 second status OK request interferes with the userlist when server is closed.
+
+
+Future Plans
+0. If user is a mod and runs an admin command, automatically place "/user 0" in front
+1. User images and animations functioning.
+2. Globalize name colors (maybe)
+3. Stream files through server option.
+4. PubPad (almost complete)
+5. FM and MIM communicating with sockets!
+6. Add SET game to MIM.
+7. Voice chat (extra exe)
+8. Add /net, to show total bandwidth usage and average rate
+9. Add /ignore [ID] command

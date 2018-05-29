@@ -1,0 +1,859 @@
+.htm
+
+[11-25-2006]
+> Server.txt loaded.
+ok, so if this works right
+<!> Unknown command "OK,"
+> ========================================
+...Setting up server "New Chat Room"...
+>> Server ready [02:28:38]
+[02:28:48] (A) New Admin:      it shoudl be recording everything every 4 seconds and saving it!
+[02:28:52] (A) New Admin:      awesome feature huh
+[02:28:59] (A) New Admin:      well, we will see
+[02:29:12] (A) New Admin:      want to make sure it works perfectly before moving on
+[02:29:20] (A) New Admin:      I think it will be fine though, no problems at all
+>> Server Closed [02:29:23]
+>> Saved settings.
+
+>> Saved settings.
+
+>> Server Closed [13:10:05]
+>> Saved settings.
+
+>> Saved settings.
+
+>> Saved settings.
+
+>> Server Closed [19:55:42]
+
+
+[6-15-2009]
+> Server.txt loaded.
+> 3 public servers loaded from Master.dat.
+
+> >> Server Closed [20:01:12]
+
+> exit
+>> Server Closed [20:04:06]
+> 
+>> Server Closed [20:04:20]
+
+>> Server Closed [20:04:31]
+
+> quit
+>> Server Closed [20:04:48]
+> 
+> quit
+>> Server Closed [20:06:40]
+> 
+
+[6-15-2009]
+> Server.txt loaded.
+> 3 public servers loaded from Master.dat.
+quit clear
+>> Server Closed [20:08:25]
+> 
+
+[6-15-2009]
+> Server.txt loaded.
+> 3 public servers loaded from Master.dat.
+
+>> Server Closed [20:13:54]
+
+> quit
+>> Server Closed [20:14:06]
+> 
+> quit
+>> Server Closed [20:14:43]
+> 
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+
+[6-16-2009]
+> Server.txt loaded.
+> 3 public servers loaded from Master.dat.
+========================================
+...Opening connection...
+...Calling server 127.0.0.1:4001...
+...Waiting for reply...
+OnReceive(REG) m_iLength and m_pBuf size mismatch: sizeof(CRequest)=80  RPacket.m_iLength=81
+...Connection accepted, verifying...
+  Your UserID is 1.
+-=Tempe AZ MIM 3.02 Server=-
+     <Enjoy your stay>
+Welcome to Tempe MIM Server
++ (1) hi has joined the server [09:27:45] {127.0.0.1}
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+
+[6-16-2009]
+> Server.txt loaded.
+> 3 public servers loaded from Master.dat.
+> Requesting server info on loopback:4002...
+<!> Server not found. Error #10061
+> Requesting server info on loopback:4001...
+...Waiting for reply to info-request on "loopback" on port 4001
+OnReceive(REG) m_iLength and m_pBuf size mismatch: sizeof(CRequest)=80  RPacket.m_iLength=81
+Found Server with info-request!
+<!> Closing server connection.
+> Requesting server info on loopback:4003...
+<!> Server not found. Error #10061
+> 3 public servers scanned.
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+> 3 servers saved to MSL.txt.
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+> >> Connection closed.
+
+
+[6-17-2009]
+> Server.txt loaded.
+> 2 public servers loaded from Master.dat.
+>> Connection closed.
+
+
+[6-17-2009]
+> Server.txt loaded.
+> 2 public servers loaded from Master.dat.
+>> Connection closed.
+
+
+[6-17-2009]
+> Server.txt loaded.
+> 2 public servers loaded from Master.dat.
+<!> No MSL file
+>> Connection closed.
+
+
+[6-17-2009]
+> Server.txt loaded.
+> 2 public servers loaded from Master.dat.
+> Nothing to save to MSL.txt.
+> 1 servers saved to MSL.txt.
+>> Connection closed.
+> Nothing to save to MSL.txt.
+> 1 servers saved to MSL.txt.
+
+> quit
+>> Connection closed.
+> > Nothing to save to MSL.txt.
+> 1 servers saved to MSL.txt.
+
+
+[6-17-2009]
+> Server.txt loaded.
+> 2 public servers loaded from Master.dat.
+> 1 servers loaded from MSL.txt. Now running as an MSL provider.
+>> Connection closed.
+
+
+[6-17-2009]
+> Server.txt loaded.
+> 2 public servers loaded from Master.dat.
+> 1 servers loaded from MSL.txt. Now running as an MSL provider.
+> Nothing to save to MSL.txt.
+> 0 servers saved to MSL.txt.
+>> Connection closed.
+> Nothing to save to MSL.txt.
+> 0 servers saved to MSL.txt.
+
+
+[6-17-2009]
+> Server.txt loaded.
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+> Nothing to save to MSL.txt.
+> 1 servers saved to MSL.txt.
+
+>> Connection closed.
+> Nothing to save to MSL.txt.
+> 1 servers saved to MSL.txt.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+
+[6-17-2009]
+> Server.txt loaded.
+> 1 public servers loaded from Master.dat.
+> 2 servers loaded from MSL.txt. Now running as an MSL provider.
+========================================
+...Opening connection...
+...Calling server 127.0.0.1:4001...
+...Waiting for reply...
+OnReceive(REG) m_iLength and m_pBuf size mismatch: sizeof(CRequest)=80  RPacket.m_iLength=81
+...Connection accepted, verifying...
+  Your UserID is 1.
+-=Tempe AZ MIM 3.02 Server=-
+     <Enjoy your stay>
+Welcome to Tempe MIM Server
++ (1) hi has joined the server [04:59:52] {127.0.0.1}
+> Requesting server info at masterhd.mooo.com:4001...
+...Waiting for reply to info-request...
+OnReceive(REG) m_iLength and m_pBuf size mismatch: sizeof(CRequest)=80  RPacket.m_iLength=81
+Found Server with REG info-request!
+> 1 public servers scanned.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+>> Connection closed.
+> 2 servers saved to MSL.txt.
+
+>> Connection closed.
+> 4 servers saved to MSL.txt.
+
+>> Connection closed.
+> 4 servers saved to MSL.txt.
+
+> Requesting Master Server List from masterhd.mooo.com:4001...
+...Waiting for reply to Master Server List request...
+OnReceive(REG) m_iLength and m_pBuf size mismatch: sizeof(CRequest)=80  RPacket.m_iLength=81
+
+>> Server Closed [09:06:29]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [09:19:43]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [09:31:33]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [09:38:54]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [09:42:00]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [09:45:55]
+> 4 servers saved to MSL.txt.
+
+<!> Connection lost on socket 1.
+Error #10053
+>> Server Closed [09:51:30]
+> 4 servers saved to MSL.txt.
+
+Server SendText(REG): sizeof(CRequest)=80  RPacket.m_iLength=80
+Sent MSL to client 1
+
+
+>> Server Closed [10:01:12]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [10:06:08]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [10:10:53]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [10:11:16]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [10:17:01]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [10:18:03]
+> 4 servers saved to MSL.txt.
+
+>> Server Closed [09:30:01]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:33:55]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:36:53]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:40:46]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:41:27]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:44:43]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:46:05]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:47:42]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:48:03]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:51:49]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:53:26]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:54:42]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:54:57]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:58:43]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [09:59:32]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:01:37]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:02:08]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:03:51]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:08:36]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:10:05]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:10:36]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:13:52]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:14:16]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:34:44]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:35:01]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:35:30]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [10:36:12]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:04:13]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:07:11]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:10:22]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:11:57]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:15:13]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:17:37]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:18:02]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:27:43]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [11:37:18]
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [12:51:21]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [12:52:13]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:05:17]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:10:30]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:17:40]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:26:33]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:27:08]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:27:47]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:28:20]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:28:46]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:29:01]
+> 4 server(s) saved to MSL.txt.
+
+>> Server Closed [13:29:31]
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+VOTE:  "huh?"
+1. Yes
+2. No
+> vote 1
+> vote 1
+<!> No vote is currently in progress, or you already voted.
+> vote 1
+<!> No vote is currently in progress, or you already voted.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+> debug 1
+Changed "DEBUG" to: 1
+OnReceive(); Code = 141   Size = 2   iPos=-1
+OnReceive(); Code = 140   Size = 2   iPos=-1
+OnReceive(); Code = 141   Size = 2   iPos=-1
+OnReceive(); Code = 140   Size = 2   iPos=-1
+OnReceive(); Code = 141   Size = 2   iPos=-1
+OnReceive(); Code = 118   Size = 28   iPos=-1
+VOTE:  "huh?"
+1. Yes
+2. No
+OnReceive(); Code = 112   Size = 1   iPos=-1
+SendText(); Code = 112   Size = 1   iPos=-1
+OnReceive(); Code = 112   Size = 1   iPos=-1
+SendText(); Code = 112   Size = 1   iPos=-1
+OnReceive(); Code = 112   Size = 1   iPos=-1
+SendText(); Code = 112   Size = 1   iPos=-1
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+SendText(); Code = 140   Size = 1   iPos=0
+OnReceive(); Code = 140   Size = 2   iPos=-1
+SendText(); Code = 141   Size = 1   iPos=0
+> name Dennis
+Changed "NAME" to: "Dennis"
+NAME
+SendText(); Code = 117   Size = 80   iPos=0
+OnReceive(); Code = 141   Size = 2   iPos=-1
+OnReceive(); Code = 116   Size = 78   iPos=0
+SendText(); Code = 112   Size = 0   iPos=0
+    <Enjoy your stay>
+OnReceive(); Code = 119   Size = 801   iPos=-1
+OnReceive(); Code = 116   Size = 118   iPos=-1
+SendText(); Code = 112   Size = 0   iPos=0
+>> (1) "lol" changed name to "Dennis" [14:33:52]. {127.0.0.1}
+OnReceive(); Code = 112   Size = 1   iPos=-1
+SendText(); Code = 112   Size = 1   iPos=-1
+OnReceive(); Code = 140   Size = 2   iPos=-1
+OnReceive(); Code = 141   Size = 2   iPos=-1
+OnReceive(); Code = 116   Size = 89   iPos=-1
+SendText(); Code = 112   Size = 0   iPos=0
+[14:34:01] (A) MasterHD:      ah
+SendText(); Code = 140   Size = 1   iPos=0
+OnReceive(); Code = 140   Size = 2   iPos=-1
+SendText(); Code = 141   Size = 1   iPos=0
+SendText(); Code = 116   Size = 60   iPos=0
+OnReceive(); Code = 141   Size = 2   iPos=-1
+OnReceive(); Code = 116   Size = 89   iPos=-1
+SendText(); Code = 112   Size = 0   iPos=0
+[14:34:03] (1) Dennis:      hmmm
+SendText(); Code = 140   Size = 1   iPos=0
+OnReceive(); Code = 140   Size = 2   iPos=-1
+SendText(); Code = 141   Size = 1   iPos=0
+SendText(); Code = 116   Size = 71   iPos=0
+OnReceive(); Code = 141   Size = 2   iPos=-1
+OnReceive(); Code = 116   Size = 100   iPos=-1
+SendText(); Code = 112   Size = 0   iPos=0
+[14:34:07] (1) Dennis:      cant reproduce!
+OnReceive(); Code = 112   Size = 1   iPos=-1
+SendText(); Code = 112   Size = 1   iPos=-1
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> 4 server(s) saved to MSL.txt.
+
+>> Connection closed.
+> Nothing to save to MSL.txt.
+> 0 server(s) saved to MSL.txt.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+
+>> Connection closed.
+> Nothing to save to MSL.txt.
+> 0 server(s) saved to MSL.txt.
+
+>> Connection closed.
+
+
+[2-10-2010]
+> Server.txt loaded.
+> 4 public servers loaded from Master.dat.
+>> Connection closed.
+
+
+[7-1-2014]
+> Server.txt loaded.
+> 4 public servers loaded from Master.dat.
+Reading Clipboard data from file...
+Format=50099   Size=948Bytes   Type_Name="RPGXP MAP_SECTION"
+Clipboard read from file "f:\My Documents\My Projects\MIM\ClipBoard.clp"
+Reading Clipboard data from file...
+Format=50099   Size=948Bytes   Type_Name="RPGXP MAP_SECTION"
+Clipboard read from file "f:\My Documents\My Projects\MIM\ClipBoard.clp"
+
+
+[7-1-2014]
+> Server.txt loaded.
+> 4 public servers loaded from Master.dat.
+Reading Clipboard data from file...
+Format=50099   Size=948Bytes   Type_Name="RPGXP MAP_SECTION"
+Clipboard read from file "f:\My Documents\My Projects\MIM\ClipBoard.clp"
+Reading Clipboard data from file...
+Format=50099   Size=948Bytes   Type_Name="RPGXP MAP_SECTION"
+Clipboard read from file "f:\My Documents\My Projects\MIM\ClipBoard.clp"
+
+
+[7-1-2014]
+> Server.txt loaded.
+> 4 public servers loaded from Master.dat.
+Displaying current clipboard data...
+Format=50197   Size=2075Bytes   Type_Name="RPGXP ITEM"
+Clipboard saved to file "F:\My Documents\My Projects\MIM\ClipBoard2.clp"
+
+
+[5-28-2018]
+> Server.txt loaded.
+> 4 public servers loaded from Master.dat.
+========================================
+...Setting up server "New Chat Room"...
+>> Server ready [14:17:45]
+>> Server Closed [14:17:56]
+>> Server Closed [14:17:57]
+
+
+[5-28-2018]
+> Server.txt loaded.
+> 4 public servers loaded from Master.dat.
+commands
+
+Avaliable commands (alphabetical):
+         ADDBAN        ADDFILE          ADDIP      ADMINNAME
+       ALLOWRUN      AUTOLOGIN       AUTOSAVE            BAN
+        BOUNCER     BOUNCERINT        BROWSER         CENSOR
+       CLEARBAN      CLEARFILE          CLOSE            CMD
+           DATE          DEBUG     DICTIONARY      FOLLOWURL
+          GETIP         GOOGLE        INSTALL             IP
+           KICK         LISTEN     LISTENABLE     LISTENPORT
+       LISTFILE            MAX           MBOX             ME
+            MOD        MODPASS           MYIP           NAME
+            NET            NEW       PASSWORD           PING
+           PLAY      PLAYSOUND           PORT          QUOTE
+       ROOMNAME        REFRESH         REJOIN           ROLL
+            RUN         SCREEN       SENDFILE          SOUND
+           TIME      TIMESTAMP          UNBAN           USER
+    VIEWPROFILE           VOTE        WHISPER            CAD
+
+
+Custom Commands:
+CAD, NOTEPAD, PUNCH, 
+> punch 1
+user 1 /play punch.wav
+<!> User 1 not connected
+> > play punch.wav
+> > Nothing to save to MSL.txt.
+> 0 server(s) saved to MSL.txt.
+>> Connection closed.

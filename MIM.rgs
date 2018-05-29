@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{FA1513D8-AE83-48A0-918A-FB2AC72DCC37} = s 'MIM'
+		'MIM.EXE'
+		{
+			val AppID = s {FA1513D8-AE83-48A0-918A-FB2AC72DCC37}
+		}
+	}
+}

@@ -1,0 +1,3 @@
+CAD /followurl http://www.ctrlaltdel-online.com/comic.php
+NOTEPAD /run notepad %s
+PUNCH /user %s /play punch.wav

@@ -1,0 +1,784 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MIM.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\idr_main.ico"
+IDI_ICON7               ICON                    "res\\admin.ico"
+IDI_NET                 ICON                    "res\\Chatroom.ico"
+IDI_IP                  ICON                    "res\\ip.ico"
+IDI_PASSWORD            ICON                    "res\\pass.ico"
+IDI_USER                ICON                    "res\\user.ico"
+IDI_ICON0               ICON                    "res\\icon0.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+IDI_ICON3               ICON                    "res\\icon3.ico"
+IDI_ICON4               ICON                    "res\\icon4.ico"
+IDI_ICON5               ICON                    "res\\icon5.ico"
+IDI_ICON2               ICON                    "res\\icon6.ico"
+IDI_ICON6               ICON                    "res\\ico00002.ico"
+IDI_RED                 ICON                    "res\\net1.ico"
+IDI_GREEN               ICON                    "res\\red1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MIM_DIALOG DIALOGEX 0, 0, 428, 260
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MIM"
+MENU IDR_MAINMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_SETTINGS,7,1,44,24,BS_BITMAP
+    PUSHBUTTON      "",IDC_OPTIONS,51,1,44,24,BS_BITMAP
+    PUSHBUTTON      "",IDC_CONNECT,95,1,44,24,BS_BITMAP
+    PUSHBUTTON      "",IDC_DISCONNECT,139,1,44,24,BS_BITMAP | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "",IDC_CLEAR,183,1,44,24,BS_BITMAP
+    PUSHBUTTON      "",IDC_SAVEMESS,227,1,44,24,BS_BITMAP
+    PUSHBUTTON      "",IDC_EDITPROFILE,271,1,44,24,BS_BITMAP
+    PUSHBUTTON      "",IDC_IGNORE,323,1,31,24,BS_BITMAP | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "",IDC_VIEWPROFILE,355,1,31,24,BS_BITMAP | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "",IDC_SENDFILE,387,1,31,24,BS_BITMAP | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Welcome to room: ",IDC_ROOMNAME,7,27,310,9
+    CONTROL         "",IDC_ROOM,"RICHEDIT",TCS_HOTTRACK | TCS_RAGGEDRIGHT | TCS_MULTISELECT | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,37,310,144
+    CONTROL         "",IDC_MESSAGE,"RICHEDIT",TCS_HOTTRACK | TCS_MULTISELECT | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,197,310,33
+    PUSHBUTTON      "&Send",IDC_SEND,8,233,53,13,BS_BITMAP
+    PUSHBUTTON      "&~Previous",IDC_PREV,66,233,53,13,BS_BITMAP
+    PUSHBUTTON      "&Tray Icon",IDC_TRAY,123,233,53,13,BS_BITMAP
+    PUSHBUTTON      "&Simple",IDC_SIMPLE,181,233,53,13,BS_BITMAP
+    LTEXT           "Users: 0/10",IDC_USERS,322,27,103,9,SS_SUNKEN
+    CONTROL         "List1",IDC_USERLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | LVS_NOSORTHEADER | NOT WS_VISIBLE | WS_DISABLED | WS_BORDER | WS_TABSTOP,322,37,103,144,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "",IDC_KICK,323,182,32,24,BS_BITMAP | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "",IDC_MBOX,356,182,32,24,BS_BITMAP | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Pubpad",IDC_PUBPAD,240,233,53,13,BS_BITMAP
+END
+
+IDD_PASSWORD DIALOG  0, 0, 207, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_PASS,35,56,107,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,150,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,24,50,14
+    LTEXT           "This server requires a password to join.\n Enter &Password below:",IDC_STATIC,7,7,135,19
+    ICON            IDI_PASSWORD,IDC_STATIC,7,27,21,20,SS_CENTERIMAGE | SS_REALSIZEIMAGE
+    LTEXT           "User Name: ",IDC_STATIC,35,26,41,8
+    EDITTEXT        IDC_USERNAME,35,34,107,14,ES_AUTOHSCROLL
+    LTEXT           "Password:",IDC_STATIC,35,48,41,8
+END
+
+IDD_HELP DIALOG  0, 0, 275, 146
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,218,7,50,14
+    GROUPBOX        "Connection Settings:",IDC_STATIC,7,7,205,67
+    GROUPBOX        "Server Options:",IDC_STATIC,7,69,205,61
+    LTEXT           "Server = Creates Chat room\nClient = Joins chat room\nScreen Name = The name others will know you as\nServer Port = Port that server is listening on\nIP address = IP address of the server\nSound = Sound to play when message is received",IDC_STATIC,13,17,168,51
+    LTEXT           "Chatroom Name = Name of the chatroom\nAdmin Name = Admin's name\nMax Users = Total user allowed to be connected\nPort = Port that server will be listening on\nPassword = Requires a password for users to enter room\n",IDC_STATIC,15,81,186,47
+    LTEXT           "See the ""Readme.txt"" file for a very detailed description of the application.",IDC_STATIC,7,131,261,8
+END
+
+IDD_PROFILE DIALOGEX 0, 0, 279, 198
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Profile"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Personal Info:",IDC_STATIC,7,7,209,93
+    LTEXT           "Name:",IDC_STATIC,11,19,22,8
+    EDITTEXT        IDC_NAME,36,16,117,14,ES_AUTOHSCROLL
+    LTEXT           "Age:",IDC_STATIC,17,33,16,8
+    EDITTEXT        IDC_AGE,36,30,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Male",IDC_GENDER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,67,33,31,10
+    CONTROL         "Female",IDC_GENDER2,"Button",BS_AUTORADIOBUTTON,105,33,39,10
+    LTEXT           "Live:",IDC_STATIC,17,48,16,8
+    EDITTEXT        IDC_LIVE,36,45,117,14,ES_AUTOHSCROLL
+    LTEXT           "Pets:",IDC_STATIC,16,64,17,8
+    EDITTEXT        IDC_PETS,36,60,117,14,ES_AUTOHSCROLL
+    LTEXT           "Email:",IDC_STATIC,13,78,20,8
+    EDITTEXT        IDC_EMAIL,36,75,117,14,ES_AUTOHSCROLL
+    GROUPBOX        "Quote:",IDC_STATIC,7,95,209,96
+    EDITTEXT        IDC_QUOTE,13,104,196,81,ES_MULTILINE | WS_VSCROLL
+    CONTROL         IDI_ICON6,IDC_BIT,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_REALSIZEIMAGE,162,17,43,39
+    LTEXT           "Change image in Connection Settings.",IDC_INFO,159,61,51,27
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,222,7,50,14
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,222,24,50,14
+    ICON            IDI_IP,IDC_STATIC,223,50,20,20
+    CONTROL         "Animate1",IDC_ANIMATE,"SysAnimate32",NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,161,16,44,40
+END
+
+IDD_SERVER DIALOGEX 0, 0, 345, 253
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Server Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,288,7,50,14
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,288,24,50,14
+    GROUPBOX        "Names:",IDC_STATIC,7,7,151,46
+    EDITTEXT        IDC_ROOMNAME,78,16,76,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADMINNAME,78,33,76,14,ES_AUTOHSCROLL
+    RTEXT           "Chat &Room Name:",IDC_STATIC,14,18,60,8
+    RTEXT           "&Admin Name:",IDC_STATIC,14,35,60,8
+    GROUPBOX        "Room Settings:",IDC_STATIC,7,48,151,198
+    EDITTEXT        IDC_MAX,59,85,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "&Max Users:",IDC_STATIC,14,87,41,8
+    RTEXT           "&Listen Port:",IDC_STATIC,14,105,41,8
+    EDITTEXT        IDC_LISTENPORT,59,102,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "&Password:",IDC_STATIC,14,123,41,8
+    EDITTEXT        IDC_PASSWORD,59,119,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "(1-20)",IDC_SMAX,101,87,25,8
+    CONTROL         "&Screen Users",IDC_ASK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,153,59,10
+    LTEXT           "&Censor Words",IDC_STATIC,24,196,24,18
+    CONTROL         "Slider1",IDC_CENSOR,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,51,201,86,22
+    LTEXT           "None",IDC_STATIC,55,191,18,8
+    LTEXT           "Strict",IDC_STATIC,116,191,17,8
+    ICON            IDI_NET,IDC_STATIC,302,50,20,20,SS_REALSIZEIMAGE
+    LTEXT           "Comp. Name:",IDC_COMPNAME,11,58,135,8
+    RTEXT           "IP Address:",IDC_STATIC,14,70,40,8
+    CONTROL         "Opening Text...",IDC_OPENTEXT,"Button",BS_OWNERDRAW | WS_TABSTOP,19,226,59,14
+    CONTROL         "&Time Stamps",IDC_TIMESTAMP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,166,57,10
+    COMBOBOX        IDC_BANNED,163,147,109,78,CBS_SIMPLE | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "R&emove All...",IDC_REMOVEALL,"Button",BS_OWNERDRAW | WS_TABSTOP,279,186,50,14
+    CONTROL         "Remo&ve",IDC_REMOVE,"Button",BS_OWNERDRAW | WS_TABSTOP,279,167,50,14
+    CONTROL         "A&dd",IDC_ADDNEW,"Button",BS_OWNERDRAW | WS_TABSTOP,279,147,50,14
+    EDITTEXT        IDC_YOURIP,59,68,85,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Mod Pass. :",IDC_STATIC,14,140,40,8
+    EDITTEXT        IDC_MODPASS,59,136,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "Bouncer:",IDC_STATIC,157,92,181,47
+    GROUPBOX        "Banned IP's:",IDC_STATIC,157,135,181,111
+    CONTROL         "Enable &Bouncer",IDC_BOUNCER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,165,105,67,10
+    EDITTEXT        IDC_BSECONDS,233,118,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Update List every:",IDC_BSTATIC,165,121,64,8
+    LTEXT           "Seconds",IDC_BSTATIC2,265,121,34,8
+    CONTROL         "&Public Server",IDC_PUBLIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,179,58,10
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 334, 231
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connection Settings"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Connection:",IDC_STATIC,7,7,87,117
+    CONTROL         "&Server",IDC_TYPE0,"Button",BS_AUTORADIOBUTTON | WS_GROUP,48,20,37,10
+    CONTROL         "&Client",IDC_TYPE1,"Button",BS_AUTORADIOBUTTON,48,32,33,10
+    LTEXT           "Server &Port:",IDC_SPORT,15,45,65,8
+    EDITTEXT        IDC_PORT,13,55,72,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         167,IDC_BITSERVER,"Static",SS_BITMAP | SS_CENTERIMAGE,18,18,27,25,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
+    GROUPBOX        "User Info:",IDC_STATIC,7,119,263,105
+    LTEXT           "Screen &Name:",IDC_STATIC,13,129,65,8
+    EDITTEXT        IDC_SCREENNAME,13,140,105,14,ES_AUTOHSCROLL
+    CONTROL         "Play So&und (*.WAV, *.MID)",IDC_SOUND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,127,127,116,10
+    EDITTEXT        IDC_SOUNDDIR,126,140,87,14,ES_AUTOHSCROLL
+    CONTROL         "Browse...",IDC_SBROWSE,"Button",BS_OWNERDRAW | WS_TABSTOP,216,140,50,14
+    CONTROL         "I&mage (*.AVI, *.BMP)",IDC_ANI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,127,157,105,10
+    EDITTEXT        IDC_ANIDIR,126,170,87,14,ES_AUTOHSCROLL
+    CONTROL         "Browse...",IDC_ABROWSE,"Button",BS_OWNERDRAW | WS_TABSTOP,216,170,50,14
+    GROUPBOX        "Saved IP Addresses:",IDC_STATIC,93,7,177,117
+    LTEXT           "Connect to server with &IP:",IDC_STATIC,101,20,82,8
+    ICON            IDI_IP,IDC_STATIC,289,46,20,20,SS_REALSIZEIMAGE
+    CONTROL         "Remo&ve All...",IDC_REMOVEALL,"Button",BS_OWNERDRAW | WS_TABSTOP,204,48,50,14
+    CONTROL         "&Remove",IDC_REMOVE,"Button",BS_OWNERDRAW | WS_TABSTOP,152,48,50,14
+    CONTROL         "&Add",IDC_ADDNEW,"Button",BS_OWNERDRAW | WS_TABSTOP,99,48,50,14
+    CONTROL         "&OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,277,7,50,14
+    CONTROL         "Canc&el",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,277,24,50,14
+    CONTROL         166,IDC_BITCLIENT,"Static",SS_BITMAP | SS_CENTERIMAGE,18,18,27,25,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
+    CONTROL         "Allow server to run commands",IDC_ALLOWRUN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,158,110,10
+    EDITTEXT        IDC_BROWSER,126,195,87,14,ES_AUTOHSCROLL
+    CONTROL         "Browse...",IDC_BBROWSE,"Button",BS_OWNERDRAW | WS_TABSTOP,216,195,50,14
+    LTEXT           "Internet Browser (*.EXE)",IDC_STATIC,127,186,93,8
+    CONTROL         "Autosave message history",IDC_AUTOSAVEMESS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,191,98,10
+    CONTROL         "Able to accept calls",IDC_LISTENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,169,78,10
+    CONTROL         "Auto Login",IDC_AUTOLOGIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,180,50,10
+    CONTROL         "HTML",IDC_AUTO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,24,211,36,10
+    CONTROL         "TEXT",IDC_AUTO2,"Button",BS_AUTORADIOBUTTON,64,211,35,10
+    LTEXT           "Default Type:",IDC_STATIC,14,202,44,8
+    CONTROL         "List1",IDC_IPLIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,99,64,167,56
+    EDITTEXT        IDC_IP,100,29,87,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COMMENT,191,29,70,14,ES_AUTOHSCROLL
+    LTEXT           "Comment:",IDC_STATIC,193,20,32,8
+    EDITTEXT        IDC_IDLE,13,92,34,14,ES_AUTOHSCROLL
+    LTEXT           "Set Idle Away Time\n(Enter 0 sec. for OFF):",IDC_STATIC,13,73,78,18
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 272, 253
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "`"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "MIM Version x.xx",IDC_VERSION,7,7,213,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002-2007",IDC_COPYRIGHT,142,29,123,8
+    LTEXT           "Created By: Dennis Dunn (MasterHD)",IDC_STATIC,40,137,225,8
+    LTEXT           "By using this product you agree to the terms of the License Agreement.",IDC_STATIC,40,205,168,17
+    DEFPUSHBUTTON   "&OK",IDOK,233,7,32,14,WS_GROUP
+    LTEXT           "Release Date: mm/dd/yyyy",IDC_DATE,142,39,123,23
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,7,18,129,117,WS_EX_TRANSPARENT
+    LTEXT           "Images/Icons By: Marian Gaviola and Chris Wallace",IDC_STATIC,40,148,225,8
+    PUSHBUTTON      "&License Agreement",IDC_EULA,40,232,76,14
+    LTEXT           "Beta Testers: ERROR403, Chris, Marian, Mike, and Matt.",IDC_STATIC,40,160,225,16
+    LTEXT           "Special Thanks: Woo Seok Seo.",IDC_STATIC,40,180,225,21
+END
+
+IDD_AGREE DIALOGEX 0, 0, 300, 276
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mercury Instant Messenger Install"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Decline",IDCANCEL,161,255,50,14
+    PUSHBUTTON      "&Accept",IDOK,103,255,50,14
+    CTEXT           "Welcome to MIM Version x.xx",IDC_VERSION,151,11,119,20,SS_NOPREFIX
+    CTEXT           "Copyright (C) 2002-2007",IDC_COPYRIGHT,151,48,119,8
+    CTEXT           "By using this product you agree to the terms of the License Agreement (EULA).",IDC_STATIC,7,128,286,10
+    GROUPBOX        "Lisence Agreement",IDC_STATIC,7,138,286,114
+    EDITTEXT        IDC_TEXT,14,148,267,99,ES_MULTILINE | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    CTEXT           "Release Date: mm/dd/yyyy",IDC_DATE,135,60,152,8
+    CTEXT           "Create By: Dennis Dunn (MasterHD)",IDC_STATIC,135,35,152,8
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,6,3,129,117,WS_EX_TRANSPARENT
+END
+
+IDD_MBOX DIALOG  0, 0, 244, 94
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message Box"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_MESS,7,20,173,67,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,187,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,187,24,50,14
+    LTEXT           "Enter text to send to user as a message box:",IDC_STATIC,7,7,161,8
+END
+
+IDD_SAVEDL DIALOG  0, 0, 265, 65
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Incoming File(s)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Yes",IDYES,51,44,50,14
+    PUSHBUTTON      "No",IDCANCEL,180,44,50,14
+    PUSHBUTTON      "Save As...",IDSAVEAS,116,44,50,14
+    LTEXT           "Do you want to accept files from _____?",IDC_TEXT,43,19,202,23
+    ICON            IDI_NET,IDC_STATIC,15,20,21,20
+END
+
+IDD_INTRO DIALOGEX 0, 0, 129, 126
+STYLE DS_SYSMODAL | DS_SETFONT | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "MIM Version x.xx",IDC_VERSION,0,118,119,8,SS_NOPREFIX
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,0,0,129,117,WS_EX_TRANSPARENT
+END
+
+IDD_PUBPAD DIALOGEX 0, 0, 346, 241
+STYLE DS_SETFONT | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_VSCROLL | WS_HSCROLL | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "PubPad"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_THICKNESS,0,0,34,70,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Color...",IDC_COLOR,43,0,42,14
+    CONTROL         "&Pencil",IDC_TOOL,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_GROUP,90,0,36,12
+    CONTROL         "&Line",IDC_TOOL2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,126,0,36,12
+    CONTROL         "&Eraser",IDC_TOOL3,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,162,0,36,12
+    PUSHBUTTON      "&Undo",IDC_UNDO,204,0,42,12,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "&Redo",IDC_REDO,247,0,42,12,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "&Toolbox",IDC_TOOLWIN,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,255,19,36,12
+END
+
+IDD_MASTERLIST DIALOGEX 0, 0, 282, 198
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Server List"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,268,148
+    PUSHBUTTON      "&Refresh List",IDC_REFRESH,7,159,50,14
+    PUSHBUTTON      "&Update List",IDC_UPDATE,7,177,50,14
+    PUSHBUTTON      "&Add...",IDC_ADD,115,158,50,14
+    DEFPUSHBUTTON   "&Connect",IDOK,225,160,50,14
+    PUSHBUTTON      "Close",IDCANCEL,225,177,50,14
+    PUSHBUTTON      "R&emove",IDC_REMOVE,115,177,50,14
+    PUSHBUTTON      "&Stop Refresh",IDC_STOP,61,159,50,14,WS_DISABLED
+    PUSHBUTTON      "&View MSL",IDC_VIEW,61,177,50,14
+END
+
+IDD_ADDSERVER DIALOGEX 0, 0, 207, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add New Server"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Enter the server information:",IDC_STATIC,35,7,110,9
+    LTEXT           "IP Address:",IDC_STATIC,35,18,41,8
+    EDITTEXT        IDC_IP,35,26,107,14,ES_AUTOHSCROLL
+    LTEXT           "Port:",IDC_STATIC,35,40,41,8
+    EDITTEXT        IDC_PORT,36,48,34,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,150,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,24,50,14
+    ICON            IDI_IP,IDC_STATIC,7,7,20,20,SS_CENTERIMAGE | SS_REALSIZEIMAGE
+END
+
+IDD_TOOLBOX DIALOGEX 0, 0, 51, 97
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_PALETTEWINDOW
+CAPTION "Toolbox"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,10,0
+ PRODUCTVERSION 3,0,10,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Mercury Instant Messenger"
+            VALUE "CompanyName", "MasterHD"
+            VALUE "FileDescription", "MIM, internet chatroom program"
+            VALUE "FileVersion", "3, 0, 10, 0"
+            VALUE "InternalName", "MIM"
+            VALUE "LegalCopyright", "Copyright (C) 2008"
+            VALUE "OriginalFilename", "MIM.EXE"
+            VALUE "ProductName", "MIM Application"
+            VALUE "ProductVersion", "3, 0, 10, 0"
+            VALUE "SpecialBuild", "Release"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MIM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 425
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_HELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_PROFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 327
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_AGREE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+
+    IDD_MBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_SAVEDL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_PUBPAD, DIALOG
+    BEGIN
+        RIGHTMARGIN, 328
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_MASTERLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_ADDSERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TEXTBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      IDC_CHAR_BOLD
+    BUTTON      IDC_CHAR_ITALIC
+    SEPARATOR
+    BUTTON      IDC_CHAR_UNDERLINE
+    BUTTON      IDC_CHAR_STRIKEOUT
+    BUTTON      IDC_CHAR_COLOR
+    BUTTON      IDC_CHAR_BACK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TEXTBAR             BITMAP                  "res\\text.bmp"
+IDB_SETTINGS            BITMAP                  "res\\Settings.bmp"
+IDB_CONNECT             BITMAP                  "res\\Connect.bmp"
+IDB_DISCONNECT          BITMAP                  "res\\Disconnect.bmp"
+IDB_CMESS               BITMAP                  "res\\CMess.bmp"
+IDB_SMESS               BITMAP                  "res\\SMess.bmp"
+IDB_SENDFILE            BITMAP                  "res\\SendFile.bmp"
+IDB_VIEWPROFILE         BITMAP                  "res\\ViewProfile.bmp"
+IDB_IGNORE              BITMAP                  "res\\Ignore.bmp"
+IDB_SERVEROP            BITMAP                  "res\\ServerOptions.bmp"
+IDB_EDITPROFILE         BITMAP                  "res\\EditProfile.bmp"
+IDB_64                  BITMAP                  "res\\64.bmp"
+IDB_CLIENT              BITMAP                  "res\\Client.bmp"
+IDB_SERVER              BITMAP                  "res\\Server.bmp"
+IDB_LISTEN              BITMAP                  "res\\Listen.bmp"
+IDB_PREV                BITMAP                  "res\\Prev.bmp"
+IDB_SEND                BITMAP                  "res\\Send.bmp"
+IDB_TRAY                BITMAP                  "res\\Tray.bmp"
+IDB_KICK                BITMAP                  "res\\Kick.bmp"
+IDB_MBOX                BITMAP                  "res\\MBox.bmp"
+IDB_SIMPLE              BITMAP                  "res\\Simple.bmp"
+IDB_DETAILS             BITMAP                  "res\\Details.bmp"
+IDB_LOGO                BITMAP                  "MIM.bmp"
+IDB_BG                  BITMAP                  "res\\BG.bmp"
+IDB_PUBPAD              BITMAP                  "res\\pubpad.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        POPUP "&Open"
+        BEGIN
+            MENUITEM "&Bouncer.txt",                ID_FILE_OPENBOUNCER
+            MENUITEM "&Commands.txt",               ID_FILE_VIEWCOMMANDS
+            MENUITEM "&Download Folder...",         ID_FILE_OPENDOWNLOADFOLDER
+            MENUITEM "&History...",                 ID_FILE_VIEWHISTORY
+            MENUITEM "&Quotes.txt",                 ID_FILE_VIEWQUOTES
+            MENUITEM "&Server.txt",                 ID_FILE_VIEW_SERVERTXT
+            MENUITEM "C&lipboard...",               ID_OPEN_CLIPBOARD
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Load"
+        BEGIN
+            MENUITEM "&Bouncer.txt",                ID_FILE_LOADBOUNCER
+            MENUITEM "C&lipboard",                  ID_LOAD_CLIPBOARD
+            MENUITEM "&Commands.txt",               ID_FILE_LOADCOMMANDS
+            MENUITEM "&MSL",                        ID_LOAD_MSL
+            MENUITEM "S&erver.txt",                 ID_FILE_LOADSERVERTXT
+            MENUITEM "&Server List",                ID_LOAD_MASTER
+            MENUITEM "&Settings",                   ID_FILE_LOADSETTINGS
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Save"
+        BEGIN
+            MENUITEM "&Settings",                   ID_FILE_SAVESETTINGS
+            MENUITEM "S&erver List",                ID_SAVE_MASTER
+            MENUITEM "MSL",                         ID_SAVE_MSL
+            MENUITEM SEPARATOR
+            MENUITEM "&Clipboard...",               ID_SAVE_CLIPBOARD
+            MENUITEM "C&lipboard Quick",            ID_SAVE_CLIPBOARD_QUICK
+            MENUITEM "&Messages...",                ID_FILE_SAVEMESSAGES
+        END
+        MENUITEM "&Restore Defaults...",        ID_FILE_RESTORESETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Network"
+    BEGIN
+        MENUITEM "&Connection Settings...",     ID_NETWORK_CONNECTIONSETTINGS
+        MENUITEM "&Server Options...",          ID_NETWORK_SERVEROPTIONS
+        MENUITEM "Server &List...",             ID_NETWORK_MASTERSERVER
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help...",                    ID_HELP_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&EULA...",                    ID_HELP_EULA
+        MENUITEM "&Readme...",                  ID_HELP_README
+        MENUITEM "&Patch File...",              ID_HELP_PATCH
+        MENUITEM SEPARATOR
+        MENUITEM "&About...",                   ID_HELP_ABOUT
+    END
+END
+
+IDR_USERMENU MENU 
+BEGIN
+    POPUP "User"
+    BEGIN
+        MENUITEM "View &Profile...",            ID_USER_VIEWPROFILE
+        MENUITEM "&Ignore",                     ID_USER_IGNORE
+        MENUITEM "Send &File...",               ID_USER_SENDFILE
+        MENUITEM "Send &Clipboard",             ID_USER_SENDCLIPBOARD
+        MENUITEM SEPARATOR
+        MENUITEM "Message...",                  ID_USER_MESSAGE
+        MENUITEM "&Kick",                       ID_USER_KICK
+        MENUITEM "&Ban",                        ID_USER_BAN
+        MENUITEM SEPARATOR
+        POPUP "My &Status"
+        BEGIN
+            MENUITEM "&Available",                  ID_USER_STATUS_AVAILABLE
+            MENUITEM "A&way",                       ID_USER_STATUS_AWAY
+            MENUITEM "&Disconnect",                 ID_USER_MYSTATUS_DISCONNECT
+        END
+    END
+END
+
+IDR_ICONMENU MENU 
+BEGIN
+    POPUP "Icon"
+    BEGIN
+        POPUP "My &Status"
+        BEGIN
+            MENUITEM "&Available",                  ID_ICON_STATUS_AVAILABLE
+            MENUITEM "A&way",                       ID_ICON_STATUS_AWAY
+            MENUITEM SEPARATOR
+            MENUITEM "&Connect",                    ID_ICON_STATUS_CONNECT
+            MENUITEM "&Disconnect",                 ID_ICON_STATUS_DISCONNECT
+        END
+        MENUITEM "&Restore",                    ID_ICON_RESTORE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_ICON_EXIT
+    END
+END
+
+IDR_SHOWMENU MENU 
+BEGIN
+    POPUP "ShowMenu"
+    BEGIN
+        MENUITEM "&Copy              ctrl+C",   ID_SHOWMENU_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "Follow &URL...   ctrl+U",     ID_SHOWMENU_FOLLOWURL
+        MENUITEM "&Google...        ctrl+G",    ID_GOOGLE
+        MENUITEM "&Dictionary...   ctrl+D",     ID_DICTIONARY
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...            ctrl+F",  ID_SHOWMENU_FIND
+    END
+END
+
+IDR_INPUTMENU MENU 
+BEGIN
+    POPUP "InputMenu"
+    BEGIN
+        MENUITEM "&Undo",                       ID_INPUTMENU_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "C&ut",                        ID_INPUTMENU_CUT
+        MENUITEM "&Copy",                       ID_INPUTMENU_COPY
+        MENUITEM "&Paste",                      ID_INPUTMENU_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Select All",                 ID_INPUTMENU_SELECTALL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_MIM                 REGISTRY                "MIM.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_PENCIL              CURSOR                  "res\\cursor1.cur"
+IDC_LINE                CURSOR                  "res\\cur00001.cur"
+IDC_ERASER              CURSOR                  "res\\pencil1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About MIM..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_FONTNAME            "Changes the font of the selection\nFont"
+    IDC_FONTSIZE            "Changes the font size of the selection\nFont Size"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\MIM.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

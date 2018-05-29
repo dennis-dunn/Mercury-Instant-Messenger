@@ -1,0 +1,19 @@
+
+	// MIM.idl : IDL source for MIM.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (MIM.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(2FFA646A-A476-4C7F-974B-5EAA85610B8C),
+	version(1.0),
+	helpstring("MIM 1.0 Type Library")
+]
+library MIMLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

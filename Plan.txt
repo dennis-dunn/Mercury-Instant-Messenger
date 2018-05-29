@@ -1,0 +1,50 @@
+1. MIM servers conjoining.
+2. Fix /rejoin running from mod on server
+3. Add time stamp to WHISPERS, add whisper to admin!
+5. Globalize name colors (maybe)
+6. Stream files through server option.
+8. PubPad
+each time you draw a curve, or erase some, it sends the changes to the server
+then the server updates everyone's screen, even your own.
+9. FM and MIM communicating with sockets!
+10. Change streaming method from C to C++
+11. Add SET game to MIM.
+12. Voice chat (extra exe)
+18. Add /ignore [ID] command
+19. Copy text just by selecting it (no ctrl+C required!)
+FM.exe
+1. "Open File" button
+1. Fix timer and progress bar in multi-file transfer. (FM.exe)
+2. Play sound in FM when all files are done.
+3. Fix problem in MIM choosing port to open.
+4. Reconnect after 20 second idle. auto resend last file.
+
+
+v3.10 Master Server ability
+(add) ability to choose public or private server. Add Radio button and 'int' type to saved settings.
+If public, when users hosts a server, MIM will also connect to masterhd.mooo.com:4001 with iCode=MASTEREG, send
+the buffer string as a class (i.e. CShareInfo) format containing the PORT number and Room Name. The
+IP will be logged along with it by the master server. MasterMIM will check if the IP already exists in the list and update
+the name if it has changed.
+Save the IP, port, and name in a txt list similar to the Bouncer method. Master MIM must be in control of adding to this
+list. Clients will only contact Master MIM to read the contents of the list.
+How do I set my exe as the MasterMIM so others wont be able to?
+
+When a user first runs MIM, show the list of available servers by contacting MasterMIM and displaying.
+At this point Master MIM can log any IP of a users that requeststhe master list. Then once the user has the list, he will
+attempt to contact each server to check for the online status and server info with INFO iCode! Each server can send a
+CRequest packet that contains version (m_dVer), number of users (m_iID), current room name (m_strName), and password
+protection (m_strPassword='p' if yes). Put icons in the list (like a lock for pw protection)!
+If the user double-clicks the list entry, have it alter their IP and PORT variables, then attempt to connect in the normal
+manner.
+In the server list manager allow users to add their own servers by IP and port. When updating from the master server
+DO NOT erase any old entries, but add new servers, and overwrite/update identical ones.
+Need a variable that stores the IP of the Master Server, and a variable to set yourself as the PSL provider (m_bPSL_Exe)
+Add also some placeholder strings and int's, clear up any inconsistant values from before (i.e. using an int instead of bool to keep it compatible.)
+	MIM.dat file format will be superceded and incompatible with v3.02
+
+(add) All Public servers will register with the master server to generate the master IP list. Clients can view the list of
+	available servers.
+(add?) Any client will contact the MasterMIM server just to register MIM.
+
+(add) selection tool in Pubad. filled shapes drawing tools too. text tool!

@@ -1,0 +1,270 @@
+	AddCommand(&Item);
+	Item.Reset();
+
+
+	/*Item.strCommand = "ADMINNAME";
+	Item.strHelp = "Description: Sets the admin's name.";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strAdminName;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);//1
+	Item.strCommand = "BROWSER";
+	Item.strHelp = "Description: Sets the internet browser used for opening hyperlinks (exe file).";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strBrowser;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);//2
+	Item.strCommand = "ROOMNAME";
+	Item.strHelp = "Description: Sets the room name, must be disconnected";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strRoomName;
+	AddCommand(&Item);//3
+	Item.strCommand = "INSTALL";
+	Item.strHelp = "Description: Sets the current installed directory (Must be set to directory of MIM.exe and FM.exe).";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strInstallDir;
+	AddCommand(&Item);
+	Item.strCommand = "IP";
+	Item.strHelp = "Usage: /ip \"address\"\nDescription: Sets the address of server to connect to.";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strIP;
+	AddCommand(&Item);
+	Item.strCommand = "PASSWORD";
+	Item.strHelp = "Description: Sets the password, set to \"\" to erase it.";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strPassword;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "MODPASS";
+	Item.strHelp = "Description: Sets the Mod password, set to \"\" to disable moderators.";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strModPass;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "TIME";
+	Item.strHelp = "Description: Displays the current time [HH:MM:SS].";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strTime;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "DATE";
+	Item.strHelp = "Description: Displays the current date [MM/DD/YYYY].";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strDate;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "SCREEN";
+	Item.strHelp = "Usage: /screen [BOOL]\nDescription: Asks admin permission for client to join.\n[1 = ON, 0 = OFF]";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_bAsk;
+	Item.dType = 1;//integer
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "TIMESTAMP";
+	Item.strHelp = "Usage: /timestamp [BOOL]\nDescription: Show time stamp before each message.\n[1 = ON, 0 = OFF]";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_bTimeStamp;
+	Item.dType = 1;//integer
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "AUTOSAVE";
+	Item.strHelp = "Usage: /autosave [BOOL]\nDescription: Set auto save message history.\n[1 = ON, 0 = OFF]";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_bAutoSaveMess;
+	Item.dType = 1;//integer
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "AUTOLOGIN";
+	Item.strHelp = "Usage: /autologin [BOOL]\nDescription: Set auto login mode.\n[1 = ON, 0 = OFF]";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_bAutoLogin;
+	Item.dType = 1;//integer
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "PLAYSOUND";
+	Item.strHelp = "Usage: /playsound [bool]\nDescription: Changes censor level (0 = OFF, 4 = MAX)";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_bSound;	
+	Item.dType = 1;//int
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "ALLOWRUN";
+	Item.strHelp = "Usage: /allowrun [bool]\nDescription: Toggle whether admin is allowed to run commands on the client's computer.";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_bAllowRun;	
+	Item.dType = 1;//integer
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "CENSOR";
+	Item.strHelp = "Usage: /censor [int]\nDescription: Enables or disables sound (0 = OFF, 1 = ON)";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_iCensor;	
+	Item.dType = 1;//int
+	Item.iUpper = 3;//max
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "MAX";
+	Item.strHelp = "Usage: /max [int]\nDescription: Sets the max users allowed to connect to server.";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_Users.m_iMax;
+	Item.iUpper = 20;//max
+	Item.dType = 1;//integer
+	AddCommand(&Item);
+	Item.strCommand = "LISTENABLE";
+	Item.strHelp = "Usage: /listenable [bool]\nDescription: Sets whether this computer can act as a server and accept calls.";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_bListenAble;
+	Item.dType = 1;//integer
+	Item.iUpper = 1;//BOOL 0-1
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "PORT";
+	Item.strHelp = "Description: Used by client, port that server is listening on.";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_iPort;
+	Item.iUpper = 60000;//max
+	Item.dType = 1;//integer
+	AddCommand(&Item);
+	Item.strCommand = "LISTENPORT";
+	Item.strHelp = "Description: Server port to listen on for other clients.";
+	Item.iVal = (int*)&((CMIMDlg*)m_pWnd)->m_iListenPort;
+	Item.dType = 1;//integer
+	AddCommand(&Item);
+	Item.strCommand = "SOUND";
+	Item.strHelp = "Usage: /sound \"Sound.wav\"\nDescription: Sets the sound file to be used.";
+	Item.strVal = &((CMIMDlg*)m_pWnd)->m_strSoundDir;
+	Item.dType = 0;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	//Commands
+	Item.strCommand = "ADDIP";
+	Item.strHelp = "Usage: /ip \"address\"\nDescription: Adds an IP address to the saved list.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "SENDFILE";
+	Item.strHelp = "Usage: /sendfile [ID]\nDescription: Sends all files in the current file list to user ID.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "ADDFILE";
+	Item.strHelp = "Usage: /addfile \"filepath\"\nDescription: Adds the file to the file list.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "CLEARFILE";
+	Item.strHelp = "Usage: /clearfile \nDescription: Clears the file list.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = FALSE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "LISTFILE";
+	Item.strHelp = "Usage: /listfile \nDescription: Shows the file list.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = FALSE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "BAN";
+	Item.strHelp = "Usage: /ban [ID]\nDescription: Adds the IP address of the user (ID) to the ban list. See also ADDBAN.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "ADDBAN";
+	Item.strHelp = "Usage: /addban \"address\"\nDescription: Adds the IP address to the ban list. See also BAN.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "CLEARBAN";
+	Item.strHelp = "Usage: /clearban \nDescription: Clears the ban list.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = FALSE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "KICK";
+	Item.strHelp = "Usage: /kick [ID]\nDescription: Kicks the user with ID from server (admin only).";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "RUN";
+	Item.strHelp = "Usage: /run \"[dir] [parameters]\"\nDescription: Same function as the Windows RUN command, executes a program.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "VIEWPROFILE";
+	Item.strHelp = "Usage: /viewprofile [ID]\nDescription: Requests and displays profile from specified user. Use ID=0 for admin.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "VOTE";
+	Item.strHelp = "Usage1: /vote \"question\" [choice1] [c2] [c3] [c4]\nUsage2: /vote [choice]\nDescription: Polls clients, and shows \"tally\"\nDefault choices are Y/N.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "MBOX";
+	Item.strHelp = "Usage: /mbox [ID] \"text\"\nDescription: Pop-up message box on client's screen (admin only).";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "PING";
+	Item.strHelp = "Usage: /ping [ID] \nDescription: Pings a user through the server, returns time in milliseconds.\nUse ID 0 to ping server.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "USER";
+	Item.strHelp = "Usage: /user [ID] \"command\"\nDescription: Runs a console command on client ID (admin only).";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "ME";
+	Item.strHelp = "Usage: /me \"message\"\nDescription: Places text after name between asterisks. Use quotations to display more than 1 word.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "MYIP";
+	Item.strHelp = "Usage: /myIP\nDescription: Your computer's LOCAL IP address.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = FALSE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "GETIP";
+	Item.strHelp = "Usage: /GETIP [ID]\nDescription: (Admin only) Returns the IP address of the user indicated.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "WHISPER";
+	Item.strHelp = "Usage: /WHISPER [ID] \"Text\"\nDescription: Use \"/w\" for shortcut.\nSends \"Text\" only to the user specified.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "QUOTE";
+	Item.strHelp = "Usage: /QUOTE \"NAME\" \"QUOTE\"\nDescription: Places the name and quote into the quotes.txt file.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);
+	Item.strCommand = "MOD";
+	Item.strHelp = "Usage: /MOD \"PASSWORD\"\nDescription: Request to be a server moderator.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);//#42
+	Item.strCommand = "GOOGLE";
+	Item.strHelp = "Usage: /GOOGLE \"PHRASE\"\nDescription: Googles the entered phrase.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);//#43
+	Item.strCommand = "DICTIONARY";
+	Item.strHelp = "Usage: /DICTIONARY \"PHRASE\"\nDescription: Looks up PHRASE at dictionary.com.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);//#44
+	Item.strCommand = "FOLLOWURL";
+	Item.strHelp = "Usage: /FOLLOWURL \"URL\"\nDescription: Opens URL in internet browser.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);//#45
+	Item.strCommand = "NEW";
+	Item.strHelp = "Usage: /NEW [COMMAND] \"SHORTCUT %PARAM\"\nDescription: Creates a new custom command. See \"Custom Commands\" in the readme.";
+	Item.dType = -1;//Not a var, command
+	Item.bPara = TRUE;
+	Item.bEdit = TRUE;
+	AddCommand(&Item);//#46*/

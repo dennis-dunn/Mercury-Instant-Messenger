@@ -1,0 +1,3 @@
+             -=Tempe, Arizona MIM Server=-
+This server is open to the public and used for testing MIM.
+Rules: No complaining about frequent MIM updates or bugs :P
