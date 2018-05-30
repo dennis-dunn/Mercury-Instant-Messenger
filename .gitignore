@@ -42,3 +42,12 @@
 *.dep
 *.user
 *.manifest
+*.cl
+*.ilk
+*.pdb
+*.suo
+*.tlb
+
+#MIM:
+*.clp
+*.dat

@@ -586,7 +586,7 @@ IDB_KICK                BITMAP                  "res\\Kick.bmp"
 IDB_MBOX                BITMAP                  "res\\MBox.bmp"
 IDB_SIMPLE              BITMAP                  "res\\Simple.bmp"
 IDB_DETAILS             BITMAP                  "res\\Details.bmp"
-IDB_LOGO                BITMAP                  "MIM.bmp"
+IDB_LOGO                BITMAP                  "res\\MIM_Intro.bmp"
 IDB_BG                  BITMAP                  "res\\BG.bmp"
 IDB_PUBPAD              BITMAP                  "res\\pubpad.bmp"
 
