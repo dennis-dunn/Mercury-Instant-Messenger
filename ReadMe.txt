@@ -397,9 +397,7 @@ Here are a few easy tips for new users:
 
 -----------------------------------------------------------------------
 15 - CONTACT INFO
-	1. You can E-Mail me at MasterHD@cox.net if you have any
-		questions or would like an updated version
-		of this program.
+	1. You can E-Mail me at master1hd@gmail.com if you have any questions.
 	2. Any comments or suggestions would also be appreciated.
 
 -----------------------------------------------------------------------
